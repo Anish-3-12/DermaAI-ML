@@ -33,10 +33,7 @@ Overall accuracy: 0.91
 
 - Base Model: `MobileNetV2`
 - Fine-tuning: Last 20 layers
-- Loss: Custom Focal Loss
-- Optimizer: Adam with ReduceLROnPlateau
 - EarlyStopping: Patience = 10
-- Final Epochs: 50 (Best at Epoch 45)
 - Final Training Accuracy: 95.72%
 - Final Validation Accuracy: 82.13%
 
