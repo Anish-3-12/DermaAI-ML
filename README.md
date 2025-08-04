@@ -2,6 +2,13 @@
 
 This project is a deep learning-based skin disease classifier trained on the HAM10000 dataset. It uses a fine-tuned MobileNetV2 model to detect 7 types of skin diseases from images. The model is integrated into an interactive Streamlit web app for user-friendly inference.
 
+## 📦 Trained Model Weights
+
+To keep the repository lightweight, the trained model (`skin_disease_classifier.h5`) is not included directly in this repo due to GitHub's file size restrictions.
+You can download the trained model from the following Google Drive link:
+🔗 [Download Model from Google Drive](https://drive.google.com/drive/folders/1qAIy0MyHpfaMPai7JppAdPhmlDCZ2qVZ?usp=drive_link)
+Once downloaded, place the `skin_disease_classifier.h5` file in the root directory of the project (same folder as `app.py`) so the Streamlit app can load it.
+
 ## 🚀 Features
 
 - Fine-tuned **MobileNetV2** on HAM10000 dataset
